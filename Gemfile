@@ -37,4 +37,5 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-gem 'omniauth-foursquare', :git => 'https://github.com/arunagw/omniauth-foursquare.git'
+gem 'omniauth-foursquare'
+gem 'pry'
