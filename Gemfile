@@ -39,4 +39,6 @@ gem 'jquery-rails'
 
 gem 'omniauth-foursquare'
 gem 'twilio-ruby'
+gem 'curb'
+gem 'nokogiri'
 gem 'pry'
