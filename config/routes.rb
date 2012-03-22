@@ -10,6 +10,9 @@ Twoursquare::Application.routes.draw do
   match '/auth/failure' => 'home#error'
   match '/auth/:provider/callback' => 'users#connect'
   match '/complete' => 'users#complete'
+  match '/incoming/call' => 'twilio#call'
+  match '/hangup' => 'twilio#hangup'
+  match '/incoming/transcript' => 'foursquare#checkin'
 
   # Sample of named route:
   #   match 'products/:id/purchase' => 'catalog#purchase', :as => :purchase
