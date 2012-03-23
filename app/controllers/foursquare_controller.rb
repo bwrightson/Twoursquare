@@ -32,6 +32,5 @@ class FoursquareController < ApplicationController
        ]
        checkin_response = JSON.parse(Curl::Easy.http_post(url, *post_params).body_str)
     end
-    binding.pry
   end
 end

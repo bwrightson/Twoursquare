@@ -10,5 +10,6 @@ class TwilioController < ApplicationController
     response = Twilio::TwiML::Response.new do |r|
       r.Hangup
     end
+    render :text => response.text
   end
 end

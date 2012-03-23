@@ -11,3 +11,47 @@
  *= require_self
  *= require_tree .
 */
+
+body {
+  background-image: url('stripe.png');
+  font-family: arial;
+}
+
+#container {
+  background-color: white;
+  border: 1px solid black;
+  height: 500px;
+  margin: 100px auto;
+  width: 900px;
+}
+
+#logos {
+  background-color: grey;
+  border: 1px solid black;
+  margin: 50px auto 10px auto;
+  width: 676px;
+}
+
+#tw_logo {
+  background-image: url('tw_logo.png');
+  float: left;
+  height: 107px;
+  width: 189px;
+}
+
+#oursquare_logo {
+  background-image: url('oursquare_logo.png');
+  height: 118px;
+  margin: 15px 0 0 175px;
+  width: 498px;
+}
+
+#content {
+  margin: 0 auto;
+  width: 550px;
+}
+
+#connect {
+  width: 150px;
+  margin: 30px auto 0 auto;
+}
