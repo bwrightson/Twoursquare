@@ -1,0 +1,5 @@
+Twoursquare is a simple mashup of the Twilio and Foursquare APIs.
+
+To use Twoursquare, first connect your Foursquare account to Twoursquare.  Once that's done, you can call (917) 746-8716, say something like "Central Park in New York City" and press the pound key. Then Twoursquare will try to identify where you are and check in for you on Foursquare.  The keys to a successful Twoursquare check-in are speaking slowly and using the "{venue name} IN {city}" formula.
+
+As word of caution: Twilio's voice-to-text functionality is...interesting.  There's a strong chance that you could get checked in somewhere totally different, or nowhere at all. Good luck!
